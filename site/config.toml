@@ -98,7 +98,7 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
-		content = "Send me an email if you want to build something or chat about technology. As a rule, I do not work for equity. Rates range from $100 to $150 per hour depending on the requirements. I work remotely from my WeWork office in Philadelphia."
+		content = "Send me an email if you want to build something or chat about technology. As a rule, I do not work for equity. I work remotely from my WeWork office in Philadelphia."
 
 		address = [
       "WeWork c/o Julius Parishy",
