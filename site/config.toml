@@ -1,12 +1,14 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Strata"
+title = "Julius Parishy"
 theme = "hugo-strata-theme"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
 paginate = 10
+
+pluralizeListTitles = false
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
@@ -20,7 +22,6 @@ paginate = 10
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
 	custom_css  = []
-
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
@@ -46,7 +47,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Hi, there."
-		content = "My name is Julius -- I write software and screenplays. But mostly software. I am an expert in iOS development and work on mobile apps for both iOS and Android, build APIs in a variety of languages, and build content management systems for mobile apps. I live, work, and play in Philadelphia, PA.<br><br>**Technologies:** iOS, Android, React Native, Node.js, Django, Ruby on Rails; Objective-C, Java, Python, Ruby, JavaScript (ES2015/ES2017), TypeScript<br><br>If you are in need of an app, get in touch. Let's build something."
+		content = "My name is Julius -- I write software and screenplays. But mostly software. I am an expert in iOS development and work on mobile apps for both iOS and Android, build APIs in a variety of languages, and build content management systems for mobile apps. I live, work, and play in Philadelphia, PA.<br><br>**Technologies:** iOS, Android, React Native, Node.js, Django, Ruby on Rails; Objective-C, Java, Python, Ruby, JavaScript (these days ES7 via Babel & Webpack), TypeScript<br><br>If you are in need of an app, get in touch. Let's build something."
 
 
 	[params.portfolio]
@@ -142,5 +143,6 @@ paginate = 10
 
 [[menu.main]]
 	name = "Screenwriting"
+  title = "Screenwriting"
 	url  = "screenwriting/"
 	weight = 15
